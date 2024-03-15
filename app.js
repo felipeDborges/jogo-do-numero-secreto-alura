@@ -1,5 +1,5 @@
 let ListDrawnNumbers = [];
-let limitNumber = 10;
+let limitNumber = 100;
 let numberSecret = generateRandomNumber();
 let attempts = 1;
 displayInitialMessage();
@@ -12,7 +12,7 @@ function displayTextScreen (tag, texto) {
 
 function displayInitialMessage () {
     displayTextScreen('h1', 'Jogo do Número Secreto');
-    displayTextScreen('p', 'Escolha um número entre 1 e 10');
+    displayTextScreen('p', 'Escolha um número entre 1 e 100');
 
 }
 
